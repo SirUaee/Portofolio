@@ -1,0 +1,899 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@1,700&family=Oswald:wght@200&family=Roboto:ital,wght@1,100&family=Young+Serif&display=swap');
+
+html{
+    overflow-x: hidden;
+}
+ 
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color:#EBF6F9;
+    font-family: 'Young Serif', serif;
+}
+
+.navbar{
+    background-color: #3B917B;
+    color: white;
+    z-index: 5;
+}
+
+.isinavbar{
+    display: flex;
+    justify-content:space-between ;
+
+}
+
+.navbarkiri{
+    font-family: 'Lobster Two', sans-serif;
+    font-size: 45px;
+    font-weight: 700;
+    padding: 15px;
+    padding-left: 50px;
+    margin-right: 40%;
+}
+
+.navbarkanan ul{
+    display: flex;
+    list-style-type: none;
+    padding: 10px 0px;
+    /* justify-content: space-between;  */
+
+}
+
+.navbar a{
+    text-decoration: none;
+    margin-right: 2rem;
+    color: white;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 800;
+    padding-top: 10px;
+    transition: all .5s;
+    border:none;
+}
+
+.navbarkanan a:hover{
+    border-bottom: .2rem solid #ffffff;
+    padding-bottom:.5rem ;
+}
+
+.pthome img{
+    width: 450px;
+    height: 500px;
+    border-radius: 20px;
+    margin-left: 250px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.homehome{
+    display: flex;
+}
+
+.tulisanhome{
+    width: 50%;
+    font-family: 'Young Serif', serif;
+}
+
+.homesosmed{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #3B917B;
+    border-radius: 5px;
+}
+
+.sosmed a{
+    color: white;
+    font-size: 40px;
+}
+
+.iconwa{
+    padding: 5px 10px;
+    padding-top: 10px;
+}
+
+.iconwa:hover{
+    transform: translateY(-5px);
+}
+.iconig:hover{
+    transform: translateY(-5px);
+}
+.icon:hover{
+    transform: translateY(-5px);
+}
+
+.iconig{
+    padding: 5px 10px;
+}
+
+.icon{
+    padding: 5px 10px;
+    padding-bottom: 10px;
+}
+
+.tulisanhome{
+    margin-top: 250px;
+    margin-left: 100px;
+}
+
+.wtmw{
+    font-size: 30px;
+    font-weight: 900;
+    padding-bottom: 30px;
+    color: #EC825B;
+}
+
+.hiim{
+    font-size: 20px;
+    font-weight: 500;
+    color: #3B917B;
+}
+
+.hiim2{
+    font-size: 20px;
+    font-weight: 500;
+    color: #3B917B;
+}
+
+.btnpr{
+    background-color: #EC825B;
+    width: fit-content;
+    margin-top: 20px;
+    border-radius: 10px;
+    padding: 5px 0px;
+}
+
+.btnpr a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    padding: 30px 50px;
+}
+
+.btnpr:hover{
+    transform: translateY(-5px);
+}
+
+.footer{
+    background-color: #3B917B;
+    color: #ffffff;
+}
+
+.footerkanankiri{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+
+.sosmedfooter{
+    display: flex;
+}
+
+.footerkiri{
+    padding-top: 50px ;
+    padding-left: 50px;
+}
+
+.footerkanan{
+    padding-top: 50px;
+    padding-right: 50px;
+}
+.jdfooterkiri{
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.isifooterkiri{
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.jdftkn{
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.iconwaf{
+    font-size: 30px;
+    color: #ffffff;
+    padding-right: 5px;
+}
+
+.iconigf{
+    font-size: 30px;
+    color: #ffffff;
+    padding-right: 5px;
+}
+
+.iconf{
+    font-size: 30px;
+    color: #ffffff;
+    padding-right: 5px;
+}
+
+.garisf{
+    background-color: #ffffff;
+    height: 1px;
+    margin: 0px 50px;
+}
+
+.copyright{
+    font-size: 15px;
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.fotokemampuan img{
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+    margin-right: 30px;
+}
+
+
+.jdkm{
+    font-size: 70px;
+    font-weight: 900;
+    text-align: center;
+    color: #EC825B;
+    padding-top: 30px;
+}
+
+.isikm{
+    font-size: 20px;
+    padding-top: 10px;
+    font-weight: 800;
+    text-align: center;
+    color: #EC825B;
+}
+
+.kemampuan{
+    display: flex;
+    margin-top: 70px;
+    background-color: #3B917B;
+    width: fit-content;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 30px;
+    border-radius: 10px;
+    margin-bottom: 70px;
+}
+
+.judulkemampuan{
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: 700;
+    padding-bottom: 10px;
+}
+
+.isikemampuan{
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.jppr{
+    text-align: center;
+    color: #EC825B;
+    font-size: 50px;
+    font-weight: 900;
+    padding-top: 30px;
+    padding-bottom: 70px;
+}
+
+.Prestasi{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+}
+
+.fotopres img{
+    height: 450px;
+    width: 450px;
+}
+
+.prespres{
+    background-color: #3B917B ;
+    width: fit-content;
+    height: fit-content;
+    padding: 50px;
+    padding-top: 35px;
+    margin-left: 80px;
+    margin-bottom: 150px;
+    border-radius: 10px;
+}
+
+.juara{
+    color: #EC825B;
+    font-size: 25px;
+    font-weight: 800;
+    padding-bottom: 15px;
+}
+
+.jdabme{
+    color: #EC825B;
+    font-size: 50px;
+    font-weight: 900;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+.isiaboutme{
+    background-color: #3B917B;
+    display: flex;
+    margin: 0px 80px;
+    margin-bottom: 100px ;
+    padding: 50px;
+    border-radius: 5px;
+    color: #ffffff;
+}
+
+.potoab img{
+    border-radius: 10px;
+    margin-right: 70px;
+    height: 500px;
+}
+
+.judulcnt{
+    font-size: 50px;
+    font-weight: 900;
+    color: #EC825B;
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 30px;
+}
+
+.subcnt{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    color: #EC825B;
+}
+
+.isicontact{
+    background-color: #3B917B;
+    width: fit-content;
+    height: fit-content;
+    margin: auto;
+    padding: 30px;
+    border-radius: 5px;
+    margin-bottom: 150px;
+    margin-top: 30px;
+}
+
+.label{
+    color: #ffffff;
+    font-size: 17px;
+    font-weight: 800;
+    padding-bottom: 5px;
+}
+
+.formt{
+    font-family: 'Young Serif', serif;
+    width: 400px;
+    height: 30px;
+    border: none;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.formm{
+    width: 400px;
+    height: 150px;
+    font-family: 'Young Serif', serif;
+    border: none;
+    border-radius: 5px;
+}
+
+.tombols{
+    text-align: right;
+    margin-top: 30px;
+}
+
+.btns{
+    background-color: #EC825B;
+    text-decoration: none;
+    color: #ffffff;
+    padding: 10px 30px;
+    border-radius: 5px;
+}
+
+.btns:hover{
+    transform: translateY(-5px);
+}
+
+
+.menu-toggle{
+    position: relative;
+    display: none;
+    flex-direction: column;
+    height: 20px;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-right: 10px;
+}
+
+.menu-toggle span{
+    display: block;
+    width:  28px;
+    height: 3px;
+    background-color:#ffffff;
+    border-radius: 3px;
+    transition: .5s;
+}
+
+.menu-toggle input{
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    opacity: 0;
+    top: -8px;
+    left: -5px;
+    z-index: 3;
+    cursor: pointer;
+}
+
+/* menubar animation */
+.menu-toggle span:nth-child(2){
+    transform-origin:0 0;
+}
+
+.menu-toggle span:nth-child(4){
+    transform-origin:0 100%;
+}
+
+.menu-toggle input:checked ~ span:nth-child(2){
+    transform: rotate(45deg);
+    transform-origin: 0 -1px; 
+}
+
+.menu-toggle input:checked ~ span:nth-child(3){
+   transform: scale(0);
+   opacity: 0;
+}
+
+.menu-toggle input:checked ~ span:nth-child(4){
+    transform: rotate(-45deg);
+    transform-origin: 0 5px;
+}
+
+
+
+
+@media( max-width:800px){
+    .navbarkiri{
+        margin-right: 0px;
+    }
+
+    .menu-toggle{
+        display: flex;
+    }
+
+    .navbarkanan ul {
+        position: absolute;
+        right: 0;
+        top: 0;
+        flex-direction: column;
+        background-color:#3B917B;
+        height: fit-content;
+        align-items: center;
+        justify-content: none;
+        margin-top:5rem;
+        z-index: 0;
+        border-radius: 10px;
+        transform: translateX(100%);
+        transition: all .5s ;
+    }
+
+    .navbarkanan ul.slide{
+        transform: translateX(0);
+    }
+
+    .navbarkanan ul li{
+        gap: 1rem;
+        padding: 1rem;
+        text-align: center;
+        margin-left: 40px;
+    }
+
+    .navbarkanan ul li a{
+        z-index: 100;
+    }
+
+    .homehome{
+        display: grid;
+    }
+    
+    .tulisanhome{
+        margin: auto;
+       margin: 0px 300px;
+    }
+
+    .pthome img{
+        height: 300px;
+        width: 300px;
+    }
+
+    .btnpr{
+        margin-left: 20px;
+        margin-bottom: 50px;
+    }
+
+    .fotokemampuan img{
+        height: 400px;
+    }
+
+    .isikemampuan{
+        font-size: 12px;
+    }
+
+    .Prestasi{
+        grid-template-columns: 1fr ;
+    }
+
+    .isiaboutme{
+        flex-direction: column;
+    }
+    .potoab img{
+        height: 500px;
+        width: 500px;
+    }
+}
+
+
+@media( max-width:600px){
+
+    .navbarkiri{
+        margin-right: 0px;
+    }
+
+    .menu-toggle{
+        display: flex;
+    }
+
+    .navbarkanan ul {
+        position: absolute;
+        right: 0;
+        top: 0;
+        flex-direction: column;
+        background-color:#3B917B;
+        height: fit-content;
+        align-items: center;
+        justify-content: none;
+        margin-top:5rem;
+        z-index: 0;
+        border-radius: 10px;
+        transform: translateX(100%);
+        transition: all .5s ;
+    }
+
+    .navbarkanan ul.slide{
+        transform: translateX(0);
+    }
+
+    .navbarkanan ul li{
+        gap: 1rem;
+        padding: 1rem;
+        text-align: center;
+        margin-left: 40px;
+    }
+
+    .navbarkanan ul li a{
+        z-index: 100;
+    }
+
+    .homehome{
+        display: grid;
+    }
+    
+    .tulisanhome{
+        margin: auto;
+       margin: 0px 200px;
+       z-index: -2;
+    }
+
+    .fotoooo{
+        z-index: -2;
+    }
+
+    .pthome img{
+        height: 300px;
+        width: 300px;
+        margin-left: 150px;
+        z-index: -5;
+    }
+
+    .btnpr{
+        margin-left: 20px;
+        margin-bottom: 50px;
+        z-index: -2;
+    }
+
+    .kemampuan{
+        display: block;
+        z-index: -3;
+    }
+
+    .fotokemampuan img{
+        height: 300px;
+        width: 300px;
+        z-index: -3;
+    }
+
+    .isikemampuan{
+        font-size: 13px;
+        z-index: -3;
+    }
+
+    .Prestasi{
+        grid-template-columns: 1fr ;
+
+    }
+
+    .isiaboutme{
+        flex-direction: column;
+    }
+
+    .isifooterkiri{
+        font-size: 13px;
+    }
+
+    .jdfooterkiri, .jdftkn, .copyright{
+        font-size: 15px;
+    }
+
+    .sosmedfooter{
+        font-size: 15px;
+    }
+
+    .fotopres img{
+        height: 350px;
+        width: 350px;
+    }
+
+    .prespres{
+        margin-left: 50px;
+    }
+
+    .juara{
+        font-size: 20px;
+    }
+    .isifooterkiri{
+        font-size: 14px;
+        font-weight: 500;
+    }
+
+    .potoab img{
+        height: 300px;
+        width: 300px;
+    }
+    
+}
+
+@media( max-width:400px){
+
+    .navbarkiri{
+        margin-right: 0px;
+    }
+
+    .menu-toggle{
+        display: flex;
+    }
+
+    .navbarkanan ul {
+        position: absolute;
+        right: 0;
+        top: 0;
+        flex-direction: column;
+        background-color:#3B917B;
+        height: fit-content;
+        align-items: center;
+        justify-content: none;
+        margin-top:5rem;
+        z-index: 0;
+        border-radius: 10px;
+        transform: translateX(100%);
+        transition: all .5s ;
+    }
+
+    .navbarkanan ul.slide{
+        transform: translateX(0);
+    }
+
+    .navbarkanan ul li{
+        gap: 1rem;
+        padding: 1rem;
+        text-align: center;
+        margin-left: 40px;
+    }
+
+    .navbarkanan ul li a{
+        z-index: 100;
+    }
+
+    .homehome{
+        display: grid;
+    }
+    
+    .tulisanhome{
+        /* margin: auto; */
+       margin-left: 90px;
+       z-index: -2;
+       margin-top: 0px;
+    }
+
+    .fotoooo{
+        z-index: -2;
+    }
+
+    .pthome img{
+        height: 250px;
+        width: 250px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        margin-left: 80px;
+        z-index: -5;
+    }
+
+    .btnpr{
+        margin-left: 20px;
+        margin-bottom: 50px;
+        z-index: -2;
+    }
+
+    .kemampuan{
+        display: block;
+        z-index: -3;
+        margin-left: 35px;
+    }
+
+    .fotokemampuan img{
+        height: 250px;
+        width: 250px;
+        z-index: -3;
+
+    }
+    .fotokemampuan{
+        width:255px;
+    }
+
+    .isikemampuan{
+        font-size: 13px;
+        z-index: -3;
+    }
+
+    .Prestasi{
+        grid-template-columns: 1fr ;
+
+    }
+
+    .isiaboutme{
+        flex-direction: column;
+    }
+
+    .isifooterkiri{
+        font-size: 13px;
+    }
+
+    .jdfooterkiri, .jdftkn, .copyright{
+        font-size: 15px;
+    }
+
+    .sosmedfooter{
+        font-size: 15px;
+    }
+
+    .fotopres img{
+        height:200px;
+        width: 200px;
+    }
+
+    .prespres{
+        margin-left: 50px;
+    }
+
+    .juara{
+        font-size: 10px;
+    }
+    .isifooterkiri{
+        font-size: 10px;
+        font-weight: 500;
+    }
+
+    .potoab img{
+        height: 280px;
+        width: 280px;
+        margin-left: 0px;
+
+    }
+    .jdabme{
+        color: #EC825B;
+        font-size: 50px;
+        font-weight: 900;
+        text-align: center;
+        padding-top: 30px;
+        padding-bottom: 50px;
+    }
+        
+    .isiaboutme{
+        background-color: #3B917B;
+        display: flex;
+        border-radius: 5px; 
+        color: #ffffff;
+        width:250px;
+        margin-left: 20px;
+        padding: 30px; 
+        padding-right: 70px;
+    }
+        
+    .judulcnt{
+        font-size: 30px;
+        font-weight: 900;
+        color: #EC825B;
+        text-align: center;
+        padding-bottom: 10px;
+        padding-top: 30px;
+    }
+    
+    .subcnt{
+        text-align: center;
+        font-size: 13px;
+        font-weight: 700;
+        color: #EC825B;
+    }
+    
+    .isicontact{
+        background-color: #3B917B;
+        width: fit-content;
+        height: fit-content;
+        margin: auto;
+        padding: 30px;
+        border-radius: 5px;
+        margin-bottom: 150px;
+        margin-top: 30px;
+    }
+    
+    .label{
+        color: #ffffff;
+        font-size: 17px;
+        font-weight: 800;
+        padding-bottom: 5px;
+    }
+    
+    .formt{
+        font-family: 'Young Serif', serif;
+        width: 300px;
+        height: 30px;
+        border: none;
+        margin-bottom: 20px;
+        border-radius: 5px;
+    }
+    
+    .formm{
+        width: 300px;
+        height: 150px;
+        font-family: 'Young Serif', serif;
+        border: none;
+        border-radius: 5px;
+    }
+    
+    .tombols{
+        text-align: right;
+        margin-top: 30px;
+    }
+    
+    .btns{
+        background-color: #EC825B;
+        text-decoration: none;
+        color: #ffffff;
+        padding: 10px 30px;
+        border-radius: 5px;
+    }
+    
+    .btns:hover{
+        transform: translateY(-5px);
+    }
+}
+    
